@@ -1,8 +1,9 @@
 const add = require('./add.js');
 
-function isEven(number) {
-  return number % 2 === 0;
-}
+// function isEven(number) {
+//   return number % 2 === 0;
+// }
+const isEven = n => n % 2 === 0;
 
 function evens(listOfNumbers) {
   return listOfNumbers.filter(isEven);
