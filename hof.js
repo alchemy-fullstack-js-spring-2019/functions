@@ -3,15 +3,17 @@ function numberManipulator(n, callback) {
 }
 
 function repeater(n, callback) {
-    for(let index = 0; index < n; index++) {
-        callback(n[index]);
+    for(let i = 0; i < n; i++) {
+        callback();
     }
+
+    //[...Array(n)].forEach(callback);  ... is spread operator
 }
 
 function map(array, callback) {
     let newArray = [];
-    for(let index = 0; index < array.length; index++) {
-        const newValue = callback(array[index]);
+    for(let i = 0; i < array.length; i++) {
+        const newValue = callback(array[i]);
         newArray.push(newValue);
     }
     return newArray;
