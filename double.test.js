@@ -1,4 +1,5 @@
-const double = require('./double');
+const {double} = require('./double');
+const {doubleArray} = require('./double');
 
 
 describe('doubles number', ()=>{
@@ -7,3 +8,10 @@ describe('doubles number', ()=>{
     });
    
 }); 
+
+describe('creates new array and doubles each value',()=>{
+    it('doubles each instant',()=>{
+        const result = doubleArray([1,2,3]);
+        expect(result).toEqual([2,4,6]);
+    });
+});

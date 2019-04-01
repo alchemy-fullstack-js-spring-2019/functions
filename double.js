@@ -1,5 +1,14 @@
-function double(number){
-    return number*2;
+function double(number) {
+  return number * 2;
 }
 
-module.exports = double;
+
+
+function doubleArray(array) {
+  return array.map(item => item * 2);
+}
+
+module.exports = {
+  double,
+  doubleArray
+};
