@@ -4,4 +4,9 @@ function evens(array) {
     });
 }
 
-module.exports = evens;
+function firstEven(array) {
+    const firstEvenNumber = evens(array)[0];
+    return array.indexOf(firstEvenNumber);
+}
+
+module.exports = { evens, firstEven };
