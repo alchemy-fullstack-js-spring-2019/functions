@@ -1,0 +1,27 @@
+{
+  "name": "functions",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm run jest -- --watch",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paytown/functions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paytown/functions/issues"
+  },
+  "homepage": "https://github.com/paytown/functions#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.5.0"
+  }
+}
