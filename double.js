@@ -3,10 +3,7 @@ function timesTwo(number) {
 }
 
 function doubleArray(array) {
-   let newArray = array.map(function(num) {
-      return timesTwo(num);
-   })  
-   return newArray;
+   return array.map(timesTwo);
 }
 
 module.exports = {
