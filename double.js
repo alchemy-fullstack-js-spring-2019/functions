@@ -3,10 +3,10 @@ function timesTwo(number) {
 }
 
 function doubleArray(array) {
-   return array.map(timesTwo);
+    return array.map(timesTwo);
 }
 
 module.exports = {
     timesTwo,
     doubleArray
-}
+};
