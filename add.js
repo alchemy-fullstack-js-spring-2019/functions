@@ -4,6 +4,4 @@ function add(x) {
 // var sum = x.reduce(total, amount) => total + amount);
 // return sum;
 
-module.exports = {
-  add
-};
+module.exports = { add };

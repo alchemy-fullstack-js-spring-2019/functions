@@ -54,18 +54,18 @@ You can run runable installed packages with `npx` (`npx jest`).
 ## first even
 
 <!-- * Update your `evens.js` and `evens.test.js` -->
-* Create a `firstEven` function that takes an
-  array and returns the index of the first
-  even number
-* HINT: use `findIndex`
+<!-- * Create a `firstEven` function that takes an -->
+  <!-- array and returns the index of the first -->
+  <!-- even number -->
+<!-- * HINT: use `findIndex` -->
 
 ## all even
 
-* Update your `evens.js` and `evens.test.js`
+<!-- * Update your `evens.js` and `evens.test.js`
 * Create an `allEven` function that takes an
   array and returns `true` is all numbers
   are even or `false` if any numbers are odd
-* HINT: use `every`
+* HINT: use `every` -->
 
 ## Add evens
 
