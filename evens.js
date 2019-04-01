@@ -18,7 +18,12 @@ function firstEven(array) {
   return array.findIndex(even);
 }
 
+function allEven(array) {
+  return array.every(even);
+}
+
 module.exports = {
   evens,
-  firstEven
+  firstEven,
+  allEven
 };
