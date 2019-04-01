@@ -1,21 +1,28 @@
-function checkEven(n) {
+const sumArray = require('./add.js');
+
+function isEven(n) {
   return !(n % 2);
 }
 
 function evenArray(arr) {
-  return arr.filter(checkEven);
+  return arr.filter(isEven);
 }
 
 function locateFirstEven(arr) {
-  return arr.findIndex(checkEven);
+  return arr.findIndex(isEven);
 }
 
-function checkEvenArray(arr) {
-  return arr.every(checkEven);
+function isEvenArray(arr) {
+  return arr.every(isEven);
+}
+
+function sumEvenArray(arr) {
+  return sumArray(evenArray(arr));
 }
 
 module.exports = {
   evenArray,
   locateFirstEven,
-  checkEvenArray
+  isEvenArray,
+  sumEvenArray
 };
