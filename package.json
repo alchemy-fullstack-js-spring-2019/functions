@@ -1,0 +1,28 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm run test -- --watch",
+    "start": "node index.js",
+    "double": "node ./functions/double.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CheriPortman/functions.git"
+  },
+  "keywords": [],
+  "author": "Cheri Portman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CheriPortman/functions/issues"
+  },
+  "homepage": "https://github.com/CheriPortman/functions#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.5.0"
+  }
+}
