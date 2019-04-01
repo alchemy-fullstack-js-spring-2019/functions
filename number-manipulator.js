@@ -7,11 +7,16 @@ function numberManipulator(n, fn) {
 function repeater(n, callback){
   let calls = 0;
   while(calls < n){
-    callback();
+    callback(n);
     calls++;
   }
 }
+// [...Array(n)].forEach(callback); dots fills holes in empty array.
 
 function maps(array, callback){
-  return array.map(callback);
+  let newArray = [];
+  array.forEach(number => {
+    newArray.push(callback(number));
+  });
+  return newArray;
 }
