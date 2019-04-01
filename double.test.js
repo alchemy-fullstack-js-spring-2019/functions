@@ -1,4 +1,8 @@
+const timesTwo = require('./double');
 
-test('multiplies number by 2', () => {
-    expect(2*4).toBe(8);
-});
+describe('double function', () => {
+    it('doubles the number 2', () => {
+         const result = timesTwo(2);
+          expect(result).toEqual(4);
+    })
+})
