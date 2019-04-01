@@ -3,7 +3,7 @@ function double(num) {
 }
 
 function doubleArray(arr) {
-  return arr.map(item => item * 2);
+  return arr.map(double);
 }
 
 module.exports = {
