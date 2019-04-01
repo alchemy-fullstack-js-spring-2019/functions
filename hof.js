@@ -1,10 +1,15 @@
-//numberMan
-//numberMan(5, mock)
-//expect mock to be called once
-//expect mock to be called with 5
-
 function numberMan(n, callback) {
     return callback(n);
 }
 
-module.exports = numberMan;
+function repeater(n, callback) {
+    let i = 0;
+    while(i < n) {
+        callback();
+        i++;
+    }
+    //or a for loop... or [...Array(n)].forEach(callback);
+}
+module.exports = {
+    numberMan, repeater
+};
