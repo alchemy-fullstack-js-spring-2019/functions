@@ -1,7 +1,4 @@
 function add(array) {
-    return array.reduce(function(total, num) {
-        return total + num;
-    });
+    return array.reduce((total, num) => total + num);
 }
-
 module.exports = add;

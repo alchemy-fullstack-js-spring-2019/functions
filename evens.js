@@ -1,7 +1,5 @@
 function evens(array) {
-    return array.filter(function(number) {
-        return number % 2 === 0;
-    });
+    return array.filter((number) => number % 2 === 0);
 }
 
 function checkEven(number) {
@@ -13,10 +11,7 @@ function allEvens(array) {
 }
 
 function addEvens(array) {
-    const evensArray = evens(array);
-    return evensArray.reduce(function(total, num) {
-        return total + num;
-    });
+    return evens(array).reduce((total, num) => total + num);
 }
 
 module.exports = {
