@@ -2,4 +2,11 @@ function double(num) {
   return num * 2;
 }
 
-module.exports = double;
+function doubleArray(arr) {
+  return arr.map(item => item * 2);
+}
+
+module.exports = {
+  double,
+  doubleArray
+};
