@@ -1,13 +1,24 @@
+const even = n => n % 2 === 0;
+
 function evens(array) {
-  return array.filter(even);
-}
+  // return array.filter(even);
 
-function even(number) {
-  if(number % 2 === 0) {
-    return true;
-  } else {
-    return false;
+  let result = [];
+  let count = 0;
+  for(let i = 0; i < array.length; i++) {
+    if(even(array[i])) {
+      result[count] = array[i];
+      count++;
+    }
   }
+  return result;
 }
 
-module.exports = evens;
+function firstEven(array) {
+  return array.findIndex(even);
+}
+
+module.exports = {
+  evens,
+  firstEven
+};
