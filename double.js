@@ -1,10 +1,11 @@
-function double(n) {
-    return n * 2;
-}
+// function double(n) {
+//     return n * 2;
+// }
+
+const double = n => n * 2;
 
 function doubleArray(array) {
-    const result = array.map(n => n * 2);
-    return result;
+    return array.map(double);    
 }
 
 module.exports = { double, doubleArray };
