@@ -1,6 +1,5 @@
 const { double, doubleArray } = require('../functions/double.js');
 
-
 describe('double funciton', () => {
   it('doubles the number', () => {
     const result = double(2);
