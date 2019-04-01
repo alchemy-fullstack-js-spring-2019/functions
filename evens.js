@@ -5,9 +5,10 @@ const add = require('./add.js');
 // }
 const isEven = n => n % 2 === 0;
 
-function evens(listOfNumbers) {
-  return listOfNumbers.filter(isEven);
-}
+// function evens(listOfNumbers) {
+//   return listOfNumbers.filter(isEven);
+// }
+const evens = listOfNumbers => listOfNumbers.filter(isEven);
 
 function firstEven(listOfNumbers) {
   return listOfNumbers.findIndex(isEven);
