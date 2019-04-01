@@ -1,4 +1,4 @@
-const { evenArray, locateFirstEven } = require('./evens.js');
+const { evenArray, locateFirstEven, checkEvenArray } = require('./evens.js');
 
 describe('evenArray function', () => {
   it('Returns array of only even numbers', () => {
@@ -33,4 +33,26 @@ describe('locateFirstEven function', () => {
     expect(result).toEqual(expected);
   });
 
+});
+
+describe('checkEvenArray function', () => {
+  it('Returns true', () => {
+    const expected = true;
+
+    const input = [2, 4, 6];
+
+    const result = checkEvenArray(input);
+
+    expect(result).toEqual(expected);
+  });
+
+  it('Returns false', () => {
+    const expected = false;
+  
+    const input = [2, 4, 3];
+  
+    const result = checkEvenArray(input);
+  
+    expect(result).toEqual(expected);
+  });
 });
