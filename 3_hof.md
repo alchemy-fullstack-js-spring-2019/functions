@@ -7,6 +7,17 @@ to use a mock function to pass the higher-order
 function. Take a look at jest's
 [mock functions](https://jestjs.io/docs/en/mock-functions)
 
+//higher oder funcoitn
+//takes a function as an arguement
+function executor(fn){
+    fn();
+}
+
+//it returns a funciton
+function addN(n) {
+    
+}
+
 ## Number manipulator
 
 `numberManipulator` is a function that manipulates

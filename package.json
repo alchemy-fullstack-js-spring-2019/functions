@@ -9,10 +9,11 @@
     "jest": "^24.5.0"
   },
   "scripts": {
-    "test": "jest",
+    "test": "jest --verbose",
     "test:watch": "npm run test -- --watch",
     "start": "node index.js",
-    "double": "npm run double.js"
+    "double": "npm run double.js",
+    "evenfirst": "num run evens.js"
   },
   "repository": {
     "type": "git",

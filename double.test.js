@@ -9,8 +9,9 @@ describe('double funciton', () => {
 });
 
 describe('double array', () => {
-  it('doubles all array values', () => {
+  it('takes an array of [1,2,3]and returns [2,4,6]', () => {
     const result = doubleArray([1, 2, 3, 4]);
     expect(result).toEqual([2, 4, 6, 8]);
   });
 });
+

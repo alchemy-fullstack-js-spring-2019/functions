@@ -35,25 +35,25 @@ You can run runable installed packages with `npx` (`npx jest`).
 
 <!-- * Update your `double.js` file -->
 <!-- * Create a `doubleArray` function -->
-  * use your `double` function to double each item in an array
+  <!-- * use your `double` function to double each item in an array -->
 
 ## Add an array
 
-* Create an `add.js` and `add.test.js` file
-* create an `add` function that takes an array
-  and returns the sum of all items in the array
-* HINT: use `reduce`
+<!-- * Create an `add.js` and `add.test.js` file -->
+<!-- * create an `add` function that takes an array -->
+  <!-- and returns the sum of all items in the array -->
+<!-- * HINT: use `reduce` -->
 
 ## only evens
 
-* Create an `evens.js` and `evens.test.js` file
+<!-- * Create an `evens.js` and `evens.test.js` file
 * create an `evens` function that takes an array
   and returns only the even numbers from the array
-* HINT: use `filter`
+* HINT: use `filter` -->
 
 ## first even
 
-* Update your `evens.js` and `evens.test.js`
+<!-- * Update your `evens.js` and `evens.test.js` -->
 * Create a `firstEven` function that takes an
   array and returns the index of the first
   even number
