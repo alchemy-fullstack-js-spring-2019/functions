@@ -1,5 +1,6 @@
 const { double } = require('./double');
 const { doubleArray } = require('./double');
+const { doubleArrayalt } = require('./double');
 
 describe('double function', () => {
 
@@ -18,6 +19,11 @@ describe('double function', () => {
 describe('double array', () => {
   test('doubles each item in array', () => {
     const actual = doubleArray([1, 2, 3]);
+    expect(actual).toEqual([2, 4, 6]);
+  });
+
+  test('doubles each item in array w map', () => {
+    const actual = doubleArrayalt([1, 2, 3]);
     expect(actual).toEqual([2, 4, 6]);
   });
 });
