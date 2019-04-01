@@ -8,5 +8,6 @@ describe('repeat function', () => {
     repeat(input, mock);
 
     expect(mock.mock.calls.length).toEqual(expected);
+    expect(mock).toHaveBeenCalledTimes(expected);
   });
 });
