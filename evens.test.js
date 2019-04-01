@@ -1,4 +1,4 @@
-const { evens, allEvens, addEvens } = require('./evens');
+const { evens, allEvens, addEvens, firstEven } = require('./evens');
 
 describe('evens array', () => {
     it('returns only even numbers', () => {
@@ -15,5 +15,11 @@ describe('all evens array', () => {
 describe('add evens array', () => {
     it('returns sum of all evens in array', () => {
         expect(addEvens([1, 4, 3, 4])).toBe(8);
+    });
+});
+
+describe('find first even array', () => {
+    it('returns the first even number in an array', () => {
+        expect(firstEven([1, 3, 4, 5, 6])).toBe(2);
     });
 });

@@ -1,9 +1,15 @@
-function evens(array) {
-    return array.filter((number) => number % 2 === 0);
-}
+const add = require('./add');
 
 function checkEven(number) {
     return number % 2 === 0;
+}
+
+function evens(array) {
+    return array.filter(checkEven);
+}
+
+function firstEven(array) {
+    return array.findIndex(checkEven);
 }
 
 function allEvens(array) {
@@ -11,11 +17,12 @@ function allEvens(array) {
 }
 
 function addEvens(array) {
-    return evens(array).reduce((total, num) => total + num);
+    return add(evens(array));
 }
 
 module.exports = {
     evens,
     allEvens,
-    addEvens
+    addEvens,
+    firstEven
 };
