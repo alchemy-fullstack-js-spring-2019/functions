@@ -8,8 +8,7 @@ const firstEven = array => array.findIndex(isEven);
 const allEven = array => array.every(isEven);
 
 function addEvens(array) {
-    let evenArray = evens(array);
-    return addArray(evenArray);
+    return addArray(evens(array));
 }
 
   
