@@ -1,25 +1,26 @@
+const add = require('./add');
+const evenNum = num => num % 2 === 0;
+
 function evens(array) {
-    let evenArray = [];
-    for(let i = 0; i < array.length; i++) {
-        if(array[i] % 2 === 0) {
-            evenArray.push(array[i]);
-        }
-    }
-    return evenArray;
+    return array.filter(evenNum);
 }
 
 function firstEven(array) {
-    let index = null;
-    array.forEach(num => {
-        if(num % 2 === 0) {
-            index = array.indexOf(num);
-        }
-    });
+    return array.findIndex(evenNum);
+}
 
-    return index;
+function allEvens(array) {
+    return array.every(evenNum);
+}
+
+function addEvens(array) {
+    const evenArray = evens(array);
+    return add(evenArray);
 }
 
 module.exports = {
     evens,
-    firstEven
+    firstEven,
+    allEvens,
+    addEvens
 };
