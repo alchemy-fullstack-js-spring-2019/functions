@@ -6,6 +6,7 @@ You can run runable installed packages with `npx` (`npx jest`).
 
 ## Double
 
+* write a function that takes a number and returns its double 
 * Write tests for a `double` function
 * Create a `double.js`
 * Create `double.test.js`
