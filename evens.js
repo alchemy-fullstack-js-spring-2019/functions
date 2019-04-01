@@ -24,5 +24,6 @@ module.exports = {
     evens,
     allEvens,
     addEvens,
-    firstEven
+    firstEven,
+    checkEven
 };

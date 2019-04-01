@@ -18,8 +18,8 @@ describe('add evens array', () => {
     });
 });
 
-describe('find first even array', () => {
-    it('returns the first even number in an array', () => {
+describe('find first even in array', () => {
+    it('returns the index of the first even number in an array', () => {
         expect(firstEven([1, 3, 4, 5, 6])).toBe(2);
     });
 });
