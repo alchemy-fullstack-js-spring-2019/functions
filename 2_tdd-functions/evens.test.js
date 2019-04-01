@@ -1,4 +1,9 @@
-const { evenArray, locateFirstEven, isEvenArray, sumEvenArray } = require('./evens.js');
+const { 
+  evenArray,
+  locateFirstEven, 
+  isEvenArray, 
+  sumEvenArray 
+} = require('./evens.js');
 
 describe('evenArray function', () => {
   it('Returns array of only even numbers', () => {
