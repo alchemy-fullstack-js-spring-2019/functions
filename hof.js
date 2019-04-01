@@ -7,4 +7,4 @@ function numberMan(n, callback) {
     return callback(n);
 }
 
-module.exports = { numberMan };
+module.exports = numberMan;
