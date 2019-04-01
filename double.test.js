@@ -16,5 +16,5 @@ describe('doubleArray function', () => {
   });
 });
 
-//toBe is deepEqual
-//toEqual is shallow
+//toBe is shallow equal
+//toEqual is deepEqual
