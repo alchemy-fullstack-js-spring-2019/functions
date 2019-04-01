@@ -1,3 +1,5 @@
+const add = require('./add');
+
 function evens(array) {
     return array.filter(a => {
         return !(a % 2);
@@ -9,4 +11,13 @@ function firstEven(array) {
     return array.indexOf(firstEvenNumber);
 }
 
-module.exports = { evens, firstEven };
+function allEven(array) {
+    return array.every(n => !(n % 2));
+}
+
+function addEvens(array) {
+    const allEvens = evens(array);
+    return add(allEvens);
+}
+
+module.exports = { evens, firstEven, allEven, addEvens };
