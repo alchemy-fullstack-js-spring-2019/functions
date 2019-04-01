@@ -1,5 +1,5 @@
 function numberManipulator(number, callback) {
-    return callback(number);
+    return callback(number, 3);
 }
 
 module.exports = {
