@@ -14,6 +14,9 @@ function firstEven(array) {
 function allEven(array) {
   return array.every(isEven);
 }
+// const allEven = array => array.every(isEven);
+// const allEven = array => { return array.every(isEven); }
+// const allEven = function (array) => { return array.every(isEven); }  ---- ALL SAME !!! ----
 
 function addEvens(array) {
   return sumOfArray(evens(array));
