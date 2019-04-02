@@ -1,8 +1,8 @@
 const { numberManipulator, repeater } = require('./number-manipulator');
 
 describe('hof', () => {
-    it('can manipulate a number', () => {
-        // not too sure what i'm supposed to be doing on this one.
+    it('doubles a number', () => {
+        expect(numberManipulator(4, n => n * 2)).toEqual(8);
     });
 
     it('can repeat a fn multiple times', () => {
