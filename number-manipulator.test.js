@@ -2,6 +2,7 @@ const { numberManipulator } = require('./number-manipulator');
 const { repeater } = require('./number-manipulator');
 const { maps } = require('./number-manipulator');
 const { findIndex } = require('./number-manipulator');
+const { filter } = require('./number-manipulator');
 
 describe('number manipulator callback', () => {
     
@@ -54,4 +55,12 @@ describe('findIndex', () => {
 //     expect(actual).toEqual(-1);
 //   });
 });
+
+describe('filter', () => {
+  test('test filter', () => {
+    const evens = filter([1, 2, 3, 4], n => n % 2 === 0);
+    expect(evens).toEqual([2, 4]);
+  });
+});
+
 
