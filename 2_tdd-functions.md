@@ -6,6 +6,7 @@ You can run runable installed packages with `npx` (`npx jest`).
 
 ## Double
 
+//double(2) should return 4
 * Write tests for a `double` function
 * Create a `double.js`
 * Create `double.test.js`
@@ -31,7 +32,7 @@ You can run runable installed packages with `npx` (`npx jest`).
 * Write tests for a `power` function in `power.test.js`
 * Write a `power` function in `power.js`
 
-## Double an array
+## Double an array 
 
 * Update your `double.js` file
 * Create a `doubleArray` function

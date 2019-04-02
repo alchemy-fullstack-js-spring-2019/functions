@@ -6,6 +6,7 @@ such higher-order functions it can be useful
 to use a mock function to pass the higher-order
 function. Take a look at jest's
 [mock functions](https://jestjs.io/docs/en/mock-functions)
+--> they either take a function as an argument or return a function.
 
 ## Number manipulator
 
