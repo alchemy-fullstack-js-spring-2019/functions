@@ -8,9 +8,6 @@ function repeater(num, callback) {
     }
 }
 
-
-
-
 module.exports = {
     numberManipulator,
     repeater
