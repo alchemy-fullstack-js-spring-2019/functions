@@ -1,8 +1,8 @@
-const { double, arrayDouble} = require('./double')
+const { double, arrayDouble } = require('./double');
 
 test('takes an array and returns its double', () => {
   const fakeArray = [2, 4, 6];
-  const expected = [4, 8, 12]
+  const expected = [4, 8, 12];
   expect(arrayDouble(fakeArray)).toEqual(expected);
 });
 

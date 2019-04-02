@@ -27,4 +27,4 @@ describe('tests arrays to find even numbers', () => {
     const expected = 24;
     expect(addEvens(fakeArray)).toEqual(expected);
   });
-})
+});

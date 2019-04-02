@@ -3,7 +3,7 @@ function numberManip(x, callback) {
 }
 
 function repeater(x, callback) {
-  for(let i= 0; i < x; i++) {
+  for(let i = 0; i < x; i++) {
     callback();
   }
 }
@@ -11,4 +11,4 @@ function repeater(x, callback) {
 module.exports = {
   numberManip,
   repeater
-}
+};

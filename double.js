@@ -11,9 +11,9 @@ function arrayDouble(array) {
 module.exports = {
   double,
   arrayDouble
-}
+};
 
 //module.exports = {
-  //double
+//double
 //};
 //here you can export more than 1 function to be tested

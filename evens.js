@@ -13,7 +13,7 @@ const add = require('./add');
 
 //easy way
 function evenOnly(array) {
-  return array.filter(item => item % 2 === 0)
+  return array.filter(item => item % 2 === 0);
 }
 //--------------------------------------------------------------------------
 
@@ -52,7 +52,7 @@ function ifAllEven(array) {
   if(array.every(checkIfEven)) {
     return 'true';
   }
-  return 'false'
+  return 'false';
 }
 
 //--------------------------------------------------------------------------
@@ -70,4 +70,4 @@ module.exports = {
   firstEven,
   ifAllEven,
   addEvens
-}
+};
