@@ -38,5 +38,4 @@ describe('high order functions', () => {
             expect(mockCallback).toHaveBeenCalledTimes(3);
         });
     });
-
 });
