@@ -1,4 +1,4 @@
-const { evens, firstEven, allEven } = require('./evens');
+const { evens, firstEven, allEven, addEvens } = require('./evens');
 
 describe('return only even numbers in an array', () => {
   it('only return even numbers: 2, 4, 6', () => {
@@ -30,5 +30,19 @@ describe('check for even numbers for all items in an array', () => {
     const testArray1 = [2, 4, 6, 8, 10];
     const result = allEven(testArray1);
     expect(result).toEqual(true);
+  });
+  
+  it('return false', () => {
+    const testArray2 = [2, 4, 6, 8, 9];
+    const result = allEven(testArray2);
+    expect(result).toEqual(false);
+  });
+});
+
+describe('add up even numbers in an array', () => {
+  it('return sum of even numbers', () => {
+    const testArray1 = [2, 4, 6, 8, 10];
+    const result = addEvens(testArray1);
+    expect(result).toEqual(30);
   });
 });
