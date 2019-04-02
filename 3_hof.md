@@ -41,7 +41,7 @@ repeater(5, () => console.log('hi'))
 
 * Create a function `repeater` that takes a
   number `n` and a function `callback`
-* Invoke the `callback` `n` times
+* Invoke the `callback` `n` timesq
 * **Don't** forget to write tests first
 
 ## map
