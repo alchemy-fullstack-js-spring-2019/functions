@@ -15,5 +15,3 @@ describe('raises a number specified to the power specified', ()=> {
     expect(power(40, 1)).toEqual(40);
   });
 });
-
-
