@@ -1,4 +1,4 @@
-const { evens, firstEven, allEven, addEvens } = require('./evens.js');
+const { evens, firstEven, allEven, addEvens, addOnlyEvens } = require('./evens.js');
 
 describe('return only the even numbers of an array', () => {
   it('given {1, 2, 3, 4], returns [2, 4]', () => {
@@ -32,3 +32,8 @@ describe('take an array, return sum if the numbers in array are all even', () =>
   });
 });
 
+describe('take array add the evens together', () => {
+  it('given [1, 2, 3, 4], return 6', () => {
+    expect(addOnlyEvens([1, 2, 3, 4])).toEqual(6);
+  })
+})

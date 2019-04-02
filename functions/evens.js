@@ -19,4 +19,7 @@ const addEvens = (arr) => {
   }
 };
 
-module.exports = { evens, firstEven, allEven, addEvens };
+const addOnlyEvens = (arr) => {
+  return add(evens(arr));
+};
+module.exports = { evens, firstEven, allEven, addEvens, addOnlyEvens };
