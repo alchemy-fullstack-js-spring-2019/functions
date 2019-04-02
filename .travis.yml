@@ -1,1 +1,3 @@
-['Honda', 'Ford', 'Toyota', 'Tesla', 'Subaru', 'Chevrolet']
+language: node_js
+node_js:
+  - "node"
