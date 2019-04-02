@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/ColCoutts/functions#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
