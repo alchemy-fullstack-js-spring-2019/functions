@@ -1,6 +1,7 @@
 const { numberManipulator } = require('./number-manipulator');
 const { repeater } = require('./number-manipulator');
 const { maps } = require('./number-manipulator');
+const { findIndex } = require('./number-manipulator');
 
 describe('number manipulator callback', () => {
     
@@ -39,3 +40,18 @@ describe('map function', () => {
   });
 
 });
+
+describe('findIndex', () => {
+  test('find index position of matching', () => {
+    const odd = n => n % 2 !== 0;
+    const actual = findIndex([4, 5, 6], odd);
+    expect(actual).toEqual(1);
+  });
+
+//   test('if no match return -1', () => {
+//     const odd = n => n % 2 !== 0;
+//     const actual = findIndex([2, 4, 6], odd);
+//     expect(actual).toEqual(-1);
+//   });
+});
+

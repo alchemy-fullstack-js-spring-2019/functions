@@ -1,4 +1,4 @@
-module.exports = { numberManipulator, repeater, maps };
+module.exports = { numberManipulator, repeater, maps, findIndex };
 
 function numberManipulator(n, fn) {
   return fn(n);
@@ -20,3 +20,13 @@ function maps(array, callback){
   });
   return newArray;
 }
+
+function findIndex(array, callback) {
+  for(let i = 0; i < array.length; i++){
+    if(callback(array[i])){
+      return i;
+    } 
+  }
+}
+
+
