@@ -24,6 +24,7 @@ const double = n => n * 2;
 numberManipulator(5, double);
 ```
 
+
 * Create a function `numberManipulator` that takes
   a number `n` and a function `callback`
 * Invoke the `callback` and pass it `n` as an argument

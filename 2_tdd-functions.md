@@ -6,6 +6,7 @@ You can run runable installed packages with `npx` (`npx jest`).
 
 ## Double
 
+* write a function that takes a number and returns its double 
 * Write tests for a `double` function
 * Create a `double.js`
 * Create `double.test.js`
@@ -63,7 +64,7 @@ You can run runable installed packages with `npx` (`npx jest`).
 
 * Update your `evens.js` and `evens.test.js`
 * Create an `allEven` function that takes an
-  array and returns `true` is all numbers
+  array and returns `true` if all numbers
   are even or `false` if any numbers are odd
 * HINT: use `every`
 
