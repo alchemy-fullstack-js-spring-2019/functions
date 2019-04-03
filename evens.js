@@ -8,6 +8,13 @@ const add = require ('./add');
 //     // });
 // };
 
+// function filter(arr, callback) {
+//     const filteredArr = [];
+//     for(let 1 = 0; i < arr.length; i++) {
+//         filteredArr[filteredArr.length] = arr[i];
+//     }
+// }
+
 const evens = arr => arr.filter(isEven);
 
 // const firstEven = arr => findIndex(isEven);
