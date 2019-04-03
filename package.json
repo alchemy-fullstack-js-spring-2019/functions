@@ -1,0 +1,25 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "Playing around with npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "test:watch": "npm run test -- --watch",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marty42Martinez/functions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marty42Martinez/functions/issues"
+  },
+  "homepage": "https://github.com/Marty42Martinez/functions#readme",
+  "devDependencies": {
+    "jest": "^24.5.0"
+  }
+}
