@@ -7,7 +7,7 @@ describe('repeater tests', () => {
 
     const input = 5;
 
-    const result = repeater(input, mockCallback);
+    repeater(input, mockCallback);
 
     expect(mockCallback.mock.calls.length).toBe(expected);
   });
