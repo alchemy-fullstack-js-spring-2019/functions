@@ -6,18 +6,7 @@ function numberManipulator(n, callback) {
 }
 
 function repeater(n, callback) {
-    // let i = 0;
-    // while(i < n ) {
-    //     callback();
-    // }
-
-    // for(let i = 0; i < n; i++) {
-    //     callback();
-    // }
-
-    // E6 spread operator = ...
-    [...Array(n)]
-        forEach(callback);
+    [...Array(n)].forEach(callback);
 }
 
 module.exports = {
