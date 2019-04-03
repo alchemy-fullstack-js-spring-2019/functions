@@ -1,4 +1,3 @@
-// const evens = require('./evens');
 const { evens, firstEven, allEven, addEvens } = require('./evens');
 
 describe('evens testing', () => {
