@@ -6,5 +6,3 @@ const dogs = [
 ];
 
 dogs.splice(0, 1);
-
-console.log(dogs);

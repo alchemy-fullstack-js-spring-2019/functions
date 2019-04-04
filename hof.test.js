@@ -1,12 +1,3 @@
-// describe('mess with jest mocks', () => {
-//   it('uses jest mocks', () => {
-//     const mock = jest.fn();
-//     const result = mock(4);
-//     expect(result).toEqual(8);
-//     expect(mock).toHaveBeenCalledTimes(1);
-//     expect(mock).toHaveBeenCalledWith(4);
-//   });
-// });
 const { numberManipulator, repeater } = require('./hof.js');
 describe('hof', () => {
   it('can manipulate a number', () => {

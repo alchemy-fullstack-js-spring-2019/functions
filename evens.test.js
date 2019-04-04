@@ -32,7 +32,5 @@ describe('even functions', () => {
       expect(addEvens([1, 2, 3, 4, 5])).toEqual(6);
     });
   });
-  // should second function take the evens integers and return index position?
-    
 });
 

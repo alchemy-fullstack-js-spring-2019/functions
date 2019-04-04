@@ -1,16 +1,3 @@
-// higher order function
-// takes a function as an arg
-// function executor(fn) {
-//   fn();
-// }
-// // it returns a function
-// function add(n) {
-//   return function(x) {
-//     return n + x;
-//   };
-// }
-// add(1)(2);
-
 function numberManipulator(n, callback) {
   callback(n);
 }

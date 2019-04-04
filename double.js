@@ -1,4 +1,3 @@
-// export double function
 function double(num) {
   return num * 2;
 }

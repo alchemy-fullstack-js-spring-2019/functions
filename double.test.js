@@ -1,4 +1,3 @@
-// import double from './double';
 const { double, doubleArr } = require('./double');
 
 describe('double functions', () => {
