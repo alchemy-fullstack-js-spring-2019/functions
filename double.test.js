@@ -1,6 +1,5 @@
 const { double, arrayDouble } = require('./double');
 
-
 describe('double function', ()=> {
     it('double a number', () => {
         const result = double(2);
@@ -15,5 +14,3 @@ describe('double function', ()=> {
     });
 
 });
-
-

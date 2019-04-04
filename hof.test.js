@@ -1,4 +1,5 @@
 const { numberManipulator, repeater } = require('./hof');
+const { double } = require('./double');
 
 describe('mess with jest mocks', () => {
     it('uses jest mocks', ()=> {
@@ -8,7 +9,6 @@ describe('mess with jest mocks', () => {
     });
 });
 
-const { double } = require('./double');
 
 describe('number manipulator higher order function', () => {
     it('function which takes a num and callback which doubles the number', ()=> {
@@ -17,11 +17,8 @@ describe('number manipulator higher order function', () => {
         expect(result).toEqual(10);
         expect(mock).toHaveBeenCalledWith(5);
         expect(mock).toHaveBeenCalledTimes(1);
-        //expect mock to be called once
-        //expect that the mock is called with 5
     }); 
 });
-
 
 describe('repeater function', () => {
     it('is a function that calls another function multiple times', ()=> {
@@ -30,7 +27,3 @@ describe('repeater function', () => {
         expect(mock).toHaveBeenCalledTimes(5);
     });
 });
-
-// describe('map function', () => {
-//     it('is a function which calls another function')
-// });

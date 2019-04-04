@@ -3,9 +3,7 @@ function double(num) {
 }
 
 function arrayDouble(array) {
-    return array.map(double);  
-    //could also do array.map(n => n * 2);
-    //additionally array.map(n => double(n)); 
+    return array.map(double);
 }
 
 module.exports = {
