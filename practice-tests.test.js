@@ -9,13 +9,6 @@ const addOnlyEvens = require('./add-only-evens');
 const numberManipulator = require('./number-manip');
 const repeat = require('./repeat');
 
-// my first attempt using docs as reference
-// test('double a number', () => {
-//     expect(double(2)).toBe(4);
-// });
-
-
-// ryans example
 describe('doubel function', () => {
     
   it('doubles number 2', () => {
