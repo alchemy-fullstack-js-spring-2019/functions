@@ -24,7 +24,7 @@ describe('one test returns only even nums, other only the first even num', () =>
         expect(firstEven([1, 8, 5, 4])).toEqual(1);
       });
       it('returns only first even num from [3, 7, 6, 2]', () => {
-        expect(firstEven([3, 7, 6, 2])).toEqual(2);//the index not the #
+        expect(firstEven([3, 7, 6, 2])).toEqual(2);
       });
     });
 
@@ -51,4 +51,3 @@ describe('one test returns only even nums, other only the first even num', () =>
     });
   });
 });
-//lunch: disable auto fill

@@ -10,16 +10,14 @@ const evens = arr => {
 
 const firstEven = arr => {
   return arr.findIndex(isEven);
-  //return evens.findIndex(evens([0]));
 };
 
 const allEven = arr => {
-  return arr.every(isEven); //every returns true if all are "isEven" true
+  return arr.every(isEven);
 };
 
 const addEven = arr => {
   return add(evens(arr));
-  // add function adds all items in an array, our array is evens(arr)
 };
 
 module.exports = {
