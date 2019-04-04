@@ -35,5 +35,5 @@ describe('take an array, return sum if the numbers in array are all even', () =>
 describe('take array add the evens together', () => {
   it('given [1, 2, 3, 4], return 6', () => {
     expect(addOnlyEvens([1, 2, 3, 4])).toEqual(6);
-  })
-})
+  });
+});

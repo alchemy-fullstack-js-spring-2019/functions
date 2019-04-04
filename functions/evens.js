@@ -8,8 +8,6 @@ const firstEven = arr => arr.findIndex(isEven);
 
 const allEven = arr => arr.every(isEven);
 
-// const addEvens = arr => arr.add(evens);
-
 const addEvens = (arr) => {
   if(allEven(arr) === true) {
     return add(arr);
@@ -22,4 +20,5 @@ const addEvens = (arr) => {
 const addOnlyEvens = (arr) => {
   return add(evens(arr));
 };
+
 module.exports = { evens, firstEven, allEven, addEvens, addOnlyEvens };
