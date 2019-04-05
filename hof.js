@@ -6,5 +6,5 @@ function repeater(n, callback) {
   [...Array(n)].forEach(callback);
 }
 
-module.exports = { numberManip, repeater,
+module.exports = { numberManip, repeater, mapper
 };
