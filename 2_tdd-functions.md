@@ -5,7 +5,7 @@ Make sure to add jest as a devDependency with `npm i -D jest`.
 You can run runable installed packages with `npx` (`npx jest`).
 
 ## Double
-
+//takes number and doubles it 2 returns 4 etc.
 * Write tests for a `double` function
 * Create a `double.js`
 * Create `double.test.js`
