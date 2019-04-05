@@ -26,6 +26,9 @@ You can run runable installed packages with `npx` (`npx jest`).
 
 ## Power
 
+<!-- power(n, m);
+return 4 to power of 2 (so 16) -->
+
 * Create a `power.js`
 * Create `power.test.js`
 * Write tests for a `power` function in `power.test.js`
