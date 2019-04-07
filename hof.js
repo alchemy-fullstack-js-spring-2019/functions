@@ -1,12 +1,12 @@
 function numberMan(n, callback) {
-    return callback(n);
-   }
+  return callback(n);
+}
    
-   function repeater(n, callback) {
-     [...Array(n)].forEach(callback)
-   }
+function repeater(n, callback) {
+  [...Array(n)].forEach(callback);
+}
    
-   module.exports = { numberMan, repeater };
+module.exports = { numberMan, repeater };
    
    
-   
+ 

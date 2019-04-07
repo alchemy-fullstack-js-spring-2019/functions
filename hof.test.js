@@ -1,14 +1,15 @@
 
-const {numberMan, repeater} = require('./hof');
+const {numberMan, repeater } = require('./hof');
 
 
 describe('it manipulates numbers', () => {
-it('can manipulate a number', () => {
-  const mock = jest.fn();
+  it('can manipulate a number', () => {
+    const mock = jest.fn();
 
-});
-  const result = (8)
-  expect(numberMan(mock))
+    numberMan(5, mock);
+
+
+  });
 });
 
 it('it can repeat a function multiple times', () =>{
