@@ -1,5 +1,5 @@
 
-const {numberMan, repeater } = require('./hof');
+const { numberMan, repeater } = require('./hof');
 
 
 describe('it manipulates numbers', () => {
