@@ -13,10 +13,15 @@ describe('double function', () => {
 });
 
 describe('doubleArray function', () => {
-  expect(doubleArray ([1, 2, 3])).toEqual([2, 4, 6]);
-});
+  it('takes an [1, 2, 3] and returns [2, 4, 6]', () => {
+    expect(doubleArray([1, 2, 3])).toEqual([2, 4, 6]);
+
+  });
 
 
-it('takes an array of [3, 6, 9] and returns [6, 12, 18]', () => {
-  expect(doubleArray[3, 6, 9])).toEqual([6, 12, 18])
+
+  it('takes an array of [3, 6, 9] and returns [6, 12, 18]', () => {
+    expect(doubleArray([3, 6, 9])).toEqual([6, 12, 18]);
+  });
+
 });
