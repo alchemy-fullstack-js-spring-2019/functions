@@ -8,6 +8,8 @@ function. Take a look at jest's
 [mock functions](https://jestjs.io/docs/en/mock-functions)
 
 ## Number manipulator
+//expect mock called once
+//expect mock is called with 5
 
 `numberManipulator` is a function that manipulates
 a number by invoking another function. For example,
@@ -28,6 +30,7 @@ numberManipulator(5, double);
   a number `n` and a function `callback`
 * Invoke the `callback` and pass it `n` as an argument
 * **Don't** forget to write tests first
+
 
 ## Repeater
 
@@ -62,3 +65,5 @@ map([1, 2, 3], n => n * 2);
   storing the results in a new array
 * return the new array
 * **Don't** forget to write tests first
+
+---------------------------

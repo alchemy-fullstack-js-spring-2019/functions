@@ -6,6 +6,8 @@ You can run runable installed packages with `npx` (`npx jest`).
 
 ## Double
 
+//double(2) returns 4
+
 * Write tests for a `double` function
 * Create a `double.js`
 * Create `double.test.js`
@@ -30,6 +32,7 @@ You can run runable installed packages with `npx` (`npx jest`).
 * Create `power.test.js`
 * Write tests for a `power` function in `power.test.js`
 * Write a `power` function in `power.js`
+
 
 ## Double an array
 
@@ -75,3 +78,4 @@ You can run runable installed packages with `npx` (`npx jest`).
   numbers from the array
 * HINT: use a combination of your `evens` function
   and your `add` function (you can import this)
+-----------------------------
