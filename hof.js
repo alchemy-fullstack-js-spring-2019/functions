@@ -6,8 +6,6 @@ function repeater(n, callback) {
     for(let i = 0; i < n; i++) {
         callback();
     }
-
-    //[...Array(n)].forEach(callback);  ... is spread operator
 }
 
 function map(array, callback) {

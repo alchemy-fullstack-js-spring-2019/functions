@@ -28,7 +28,6 @@ describe('even functions', () => {
             const numbers = [2, 4, 6];
             const result = allEven(numbers);
             expect(result).toEqual(true);
-            //expect(allEvens([2, 4, 6])).toBeTruthy()
         });
         it('returns false', () => {
             const numbers = [3, 4, 6];
@@ -45,4 +44,3 @@ describe('even functions', () => {
         });
     });
 });
-    
