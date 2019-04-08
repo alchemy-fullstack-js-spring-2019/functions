@@ -1,6 +1,6 @@
 # Higher-order functions
 
-<!-- All of these higher-order functions are functions
+All of these higher-order functions are functions
 that take functions as arguments. When writing
 such higher-order functions it can be useful
 to use a mock function to pass the higher-order
@@ -20,7 +20,7 @@ function addN(n) {
 
 ## Number manipulator
 
-<!-- `numberManipulator` is a function that manipulates
+`numberManipulator` is a function that manipulates
 a number by invoking another function. For example,
 we can double a number with it:
 
@@ -34,7 +34,7 @@ OR
 const double = n => n * 2;
 numberManipulator(5, double);
 ```
-<!-- 
+
 * Create a function `numberManipulator` that takes
   a number `n` and a function `callback`
 * Invoke the `callback` and pass it `n` as an argument
@@ -42,7 +42,7 @@ numberManipulator(5, double);
 
 ## Repeater
 
-<!-- `repeater` is a function that can call another function
+`repeater` is a function that can call another function
 multiple times. For example, to print "hi" five times
 we could:
 
@@ -50,7 +50,7 @@ we could:
 repeater(5, () => console.log('hi'))
 ``` -->
 
-<!-- * Create a function `repeater` that takes a
+* Create a function `repeater` that takes a
   number `n` and a function `callback`
 * Invoke the `callback` `n` times
 * **Don't** forget to write tests first -->
@@ -64,7 +64,7 @@ in an array we would:
 
 ```js
 map([1, 2, 3], n => n * 2);
-// results in [2, 4, 6]
+results in [2, 4, 6]
 ```
 
 * Create a `map` function that takes an array

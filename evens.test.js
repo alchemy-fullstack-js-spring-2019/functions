@@ -1,5 +1,4 @@
 const { evens, firstEven, evenAll, addEvens  } = require('../functions/evens.js');
-// const add = require('../functions/add.js');
 
 
 describe('even', () => {

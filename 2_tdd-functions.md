@@ -6,19 +6,19 @@ You can run runable installed packages with `npx` (`npx jest`).
 
 ## Double
 
-<!-- * Write tests for a `double` function -->
-<!-- * Create a `double.js` -->
-<!-- * Create `double.test.js` -->
-<!-- * Write tests for a `double` function in `double.test.js` -->
-<!-- * Write a `double` function in `double.js` -->
+* Write tests for a `double` function -->
+* Create a `double.js` -->
+* Create `double.test.js` -->
+* Write tests for a `double` function in `double.test.js` -->
+* Write a `double` function in `double.js` -->
 
 ## Create a test script
 
 **NOTE**: scripts do not need to use `npx` to run modules
 
-<!-- * Create a `test` script inside your `package.json` file -->
-  <!-- * this script should use jest -->
-  <!-- * take a look at some [options](https://jestjs.io/docs/en/cli#options)
+* Create a `test` script inside your `package.json` file -->
+  * this script should use jest -->
+  * take a look at some [options](https://jestjs.io/docs/en/cli#options)
     that you may include
 * BONUS: create a `test:watch` script inside your `package.json`
   * use the [watch option](https://jestjs.io/docs/en/cli#watch)
@@ -26,42 +26,42 @@ You can run runable installed packages with `npx` (`npx jest`).
 
 ## Power
 
-<!-- * Create a `power.js` -->
-<!-- * Create `power.test.js` -->
-<!-- * Write tests for a `power` function in `power.test.js` -->
-<!-- * Write a `power` function in `power.js` -->
+* Create a `power.js` -->
+* Create `power.test.js` -->
+* Write tests for a `power` function in `power.test.js` -->
+* Write a `power` function in `power.js` -->
 
 ## Double an array
 
-<!-- * Update your `double.js` file -->
-<!-- * Create a `doubleArray` function -->
-  <!-- * use your `double` function to double each item in an array -->
+* Update your `double.js` file -->
+* Create a `doubleArray` function -->
+  * use your `double` function to double each item in an array -->
 
 ## Add an array
 
-<!-- * Create an `add.js` and `add.test.js` file -->
-<!-- * create an `add` function that takes an array -->
-  <!-- and returns the sum of all items in the array -->
-<!-- * HINT: use `reduce` -->
+ * Create an `add.js` and `add.test.js` file -->
+ * create an `add` function that takes an array -->
+   and returns the sum of all items in the array -->
+ * HINT: use `reduce` -->
 
 ## only evens
 
-<!-- * Create an `evens.js` and `evens.test.js` file
+* Create an `evens.js` and `evens.test.js` file
 * create an `evens` function that takes an array
   and returns only the even numbers from the array
 * HINT: use `filter` -->
 
 ## first even
 
-<!-- * Update your `evens.js` and `evens.test.js` -->
-<!-- * Create a `firstEven` function that takes an -->
-  <!-- array and returns the index of the first -->
-  <!-- even number -->
-<!-- * HINT: use `findIndex` -->
+* Update your `evens.js` and `evens.test.js` -->
+* Create a `firstEven` function that takes an -->
+  array and returns the index of the first -->
+  even number -->
+* HINT: use `findIndex` -->
 
 ## all even
 
-<!-- * Update your `evens.js` and `evens.test.js`
+* Update your `evens.js` and `evens.test.js`
 * Create an `allEven` function that takes an
   array and returns `true` is all numbers
   are even or `false` if any numbers are odd
