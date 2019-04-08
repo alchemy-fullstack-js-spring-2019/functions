@@ -1,6 +1,5 @@
 const { evens, firstEven, evenAll, addEvens  } = require('../functions/evens.js');
 
-
 describe('even', () => {
   it('returns only even values from an array', () => {
     const result = evens([1, 2, 3, 4, 5, 6]);
