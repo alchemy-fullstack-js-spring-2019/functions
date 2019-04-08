@@ -2,7 +2,6 @@
 const add = require('./add');
 
 const isEven = n => n % 2 === 0;
-//const isFirstEven = evens => evens.findIndex(0);
 
 const evens = arr => {
   return arr.filter(isEven);
