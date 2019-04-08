@@ -1,0 +1,29 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.5.0"
+  },
+  "scripts": {
+    "test": "jest --verbose",
+    "test:watch": "npm run test -- --watch",
+    "start": "node index.js",
+    "double": "npm run double.js",
+    "evenfirst": "num run evens.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrislupdx/functions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrislupdx/functions/issues"
+  },
+  "homepage": "https://github.com/chrislupdx/functions#readme"
+}

@@ -7,6 +7,17 @@ to use a mock function to pass the higher-order
 function. Take a look at jest's
 [mock functions](https://jestjs.io/docs/en/mock-functions)
 
+//higher oder funcoitn
+//takes a function as an arguement
+function executor(fn){
+    fn();
+}
+
+//it returns a funciton
+function addN(n) {
+    
+} -->
+
 ## Number manipulator
 
 `numberManipulator` is a function that manipulates
@@ -15,7 +26,7 @@ we can double a number with it:
 
 ```js
 numberManipulator(5, n => n * 2);
-```
+``` -->
 
 OR
 
@@ -27,7 +38,7 @@ numberManipulator(5, double);
 * Create a function `numberManipulator` that takes
   a number `n` and a function `callback`
 * Invoke the `callback` and pass it `n` as an argument
-* **Don't** forget to write tests first
+* **Don't** forget to write tests first -->
 
 ## Repeater
 
@@ -37,12 +48,12 @@ we could:
 
 ```js
 repeater(5, () => console.log('hi'))
-```
+``` -->
 
 * Create a function `repeater` that takes a
   number `n` and a function `callback`
 * Invoke the `callback` `n` times
-* **Don't** forget to write tests first
+* **Don't** forget to write tests first -->
 
 ## map
 
@@ -53,7 +64,7 @@ in an array we would:
 
 ```js
 map([1, 2, 3], n => n * 2);
-// results in [2, 4, 6]
+results in [2, 4, 6]
 ```
 
 * Create a `map` function that takes an array
